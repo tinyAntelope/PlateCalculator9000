@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65A506FD1B7BDCBB00E6F02B /* PlateMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A506FC1B7BDCBB00E6F02B /* PlateMath.swift */; };
 		8CEE4C5E1B79840E0007A844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE4C5D1B79840E0007A844 /* AppDelegate.swift */; };
 		8CEE4C601B79840E0007A844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE4C5F1B79840E0007A844 /* ViewController.swift */; };
 		8CEE4C631B79840E0007A844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE4C611B79840E0007A844 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65A506FC1B7BDCBB00E6F02B /* PlateMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlateMath.swift; sourceTree = "<group>"; };
 		8CEE4C581B79840E0007A844 /* Plate Calculator 9000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plate Calculator 9000.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEE4C5C1B79840E0007A844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CEE4C5D1B79840E0007A844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				8CEE4C5D1B79840E0007A844 /* AppDelegate.swift */,
+				65A506FC1B7BDCBB00E6F02B /* PlateMath.swift */,
 				8CEE4C5F1B79840E0007A844 /* ViewController.swift */,
 				8CEE4C611B79840E0007A844 /* Main.storyboard */,
 				8CEE4C641B79840E0007A844 /* Images.xcassets */,
@@ -156,6 +159,7 @@
 		8CEE4C501B79840E0007A844 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "tiny antelope";
 				TargetAttributes = {
@@ -213,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CEE4C601B79840E0007A844 /* ViewController.swift in Sources */,
+				65A506FD1B7BDCBB00E6F02B /* PlateMath.swift in Sources */,
 				8CEE4C5E1B79840E0007A844 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Plate Calculator 9000/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Plate Calculator 9000/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +418,7 @@
 				8CEE4C791B79840E0007A844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CEE4C7A1B79840E0007A844 /* Build configuration list for PBXNativeTarget "Plate Calculator 9000Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +427,7 @@
 				8CEE4C7C1B79840E0007A844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

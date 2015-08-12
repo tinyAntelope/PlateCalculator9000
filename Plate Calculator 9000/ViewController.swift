@@ -9,7 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-
+    
+    override func viewDidLoad() {
+        PlateMath.platesOwned.standard = [35,25,5,2.5, 10, 45]
+        PlateMath.bar = 33.0
+        PlateMath.platesOwned.standard = PlateMath().deleteObject(35.0, fromArray: PlateMath.platesOwned.standard)
+        
+        println(PlateMath.platesOwned.standard)
+    }
+    
 }
 
