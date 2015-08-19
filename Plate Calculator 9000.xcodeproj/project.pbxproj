@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		658EEBD61B84F7F90092D529 /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658EEBD51B84F7F90092D529 /* CalcView.swift */; };
+		658EEBD81B84F8240092D529 /* DrawBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658EEBD71B84F8240092D529 /* DrawBarView.swift */; };
 		65A506FD1B7BDCBB00E6F02B /* PlateMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A506FC1B7BDCBB00E6F02B /* PlateMath.swift */; };
 		8CEE4C5E1B79840E0007A844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE4C5D1B79840E0007A844 /* AppDelegate.swift */; };
-		8CEE4C601B79840E0007A844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE4C5F1B79840E0007A844 /* ViewController.swift */; };
+		8CEE4C601B79840E0007A844 /* PlateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE4C5F1B79840E0007A844 /* PlateViewController.swift */; };
 		8CEE4C631B79840E0007A844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE4C611B79840E0007A844 /* Main.storyboard */; };
 		8CEE4C651B79840E0007A844 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE4C641B79840E0007A844 /* Images.xcassets */; };
 		8CEE4C681B79840E0007A844 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE4C661B79840E0007A844 /* LaunchScreen.xib */; };
@@ -27,11 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		658EEBD51B84F7F90092D529 /* CalcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
+		658EEBD71B84F8240092D529 /* DrawBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawBarView.swift; sourceTree = "<group>"; };
 		65A506FC1B7BDCBB00E6F02B /* PlateMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlateMath.swift; sourceTree = "<group>"; };
 		8CEE4C581B79840E0007A844 /* Plate Calculator 9000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plate Calculator 9000.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEE4C5C1B79840E0007A844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CEE4C5D1B79840E0007A844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CEE4C5F1B79840E0007A844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CEE4C5F1B79840E0007A844 /* PlateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateViewController.swift; sourceTree = "<group>"; };
 		8CEE4C621B79840E0007A844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CEE4C641B79840E0007A844 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8CEE4C671B79840E0007A844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -81,8 +85,10 @@
 			children = (
 				8CEE4C5D1B79840E0007A844 /* AppDelegate.swift */,
 				65A506FC1B7BDCBB00E6F02B /* PlateMath.swift */,
-				8CEE4C5F1B79840E0007A844 /* ViewController.swift */,
+				8CEE4C5F1B79840E0007A844 /* PlateViewController.swift */,
 				8CEE4C611B79840E0007A844 /* Main.storyboard */,
+				658EEBD51B84F7F90092D529 /* CalcView.swift */,
+				658EEBD71B84F8240092D529 /* DrawBarView.swift */,
 				8CEE4C641B79840E0007A844 /* Images.xcassets */,
 				8CEE4C661B79840E0007A844 /* LaunchScreen.xib */,
 				8CEE4C5B1B79840E0007A844 /* Supporting Files */,
@@ -216,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEE4C601B79840E0007A844 /* ViewController.swift in Sources */,
+				658EEBD81B84F8240092D529 /* DrawBarView.swift in Sources */,
+				8CEE4C601B79840E0007A844 /* PlateViewController.swift in Sources */,
+				658EEBD61B84F7F90092D529 /* CalcView.swift in Sources */,
 				65A506FD1B7BDCBB00E6F02B /* PlateMath.swift in Sources */,
 				8CEE4C5E1B79840E0007A844 /* AppDelegate.swift in Sources */,
 			);

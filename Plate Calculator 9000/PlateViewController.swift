@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PlateViewController: UIViewController {
     
     override func viewDidLoad() {
         PlateMath.platesOwned.standard = [35,25,5,2.5, 10, 45]

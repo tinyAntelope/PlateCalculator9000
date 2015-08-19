@@ -41,7 +41,6 @@ class PlateMath {
                 numberOfThisPlate--
             }
         }
-        println(weightForPlates*2)
         return(platesToMake)
     }
 }
